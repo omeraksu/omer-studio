@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 const SEO_DATA = {
   description: 'omeraksu design studio',
-  title: 'omeraksu',
+  title: 'omeraksu studio',
   url: 'https://omer.studio/',
   author: 'omeraksu',
   keywords: ['tasarım', 'yazılım', 'seo', 'dijital-pazarlama', 'sosyal-medya'],
