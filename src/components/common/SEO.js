@@ -2,12 +2,12 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'omeraksu dijital tasarım stüdyosu.',
-  title: 'omeraksu studio',
-  url: '',
+  description: 'omeraksu design studio',
+  title: 'omeraksu',
+  url: 'https://omer.studio/',
   author: 'omeraksu',
   keywords: ['tasarım', 'yazılım', 'seo', 'dijital-pazarlama', 'sosyal-medya'],
-  img: 'https://scontent.fadb2-2.fna.fbcdn.net/v/t1.0-9/48373522_10215630138657914_8817789324381650944_o.jpg?_nc_cat=109&_nc_sid=85a577&_nc_ohc=FWcK0XucnUIAX_5OpNx&_nc_ht=scontent.fadb2-2.fna&oh=946809dc7e2dbbe3c626a2619d43cf99&oe=5F04F2E7',
+  img: 'https://avatars0.githubusercontent.com/u/34721029?s=460&u=3e3d4d0187ed012d2e51981d50b2e91ac1c582b9&v=4',
   twitterId: '@aksuomeer',
   facebookId: '@oaomeraksu',
 };
