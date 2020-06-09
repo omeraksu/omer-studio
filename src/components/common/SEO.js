@@ -2,14 +2,14 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'An absurd gatsby starter',
-  title: 'Absurd',
+  description: 'omeraksu dijital tasarım stüdyosu.',
+  title: 'omeraksu studio',
   url: '',
-  author: 'ajayns',
-  keywords: ['gatsby', 'site', 'absurd'],
-  img: '',
-  twitterId: '@ajayns_',
-  facebookId: '',
+  author: 'omeraksu',
+  keywords: ['tasarım', 'yazılım', 'seo', 'dijital-pazarlama', 'sosyal-medya'],
+  img: 'https://scontent.fadb2-2.fna.fbcdn.net/v/t1.0-9/48373522_10215630138657914_8817789324381650944_o.jpg?_nc_cat=109&_nc_sid=85a577&_nc_ohc=FWcK0XucnUIAX_5OpNx&_nc_ht=scontent.fadb2-2.fna&oh=946809dc7e2dbbe3c626a2619d43cf99&oe=5F04F2E7',
+  twitterId: '@aksuomeer',
+  facebookId: '@oaomeraksu',
 };
 
 const SEO = () => {
