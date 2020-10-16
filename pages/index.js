@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import Head from "next/head";
+import StoreContext from "../store";
 import { THEME } from "../constant";
 
-import StoreContext from "../store";
 import Button from "../components/button";
+
+import styles from "../styles/home.module.css";
 
 function HomePage() {
   const store = useContext(StoreContext);
@@ -15,7 +17,12 @@ function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className={styles.container}>
+        <h1>omer.studio</h1>
+        <p>
+          Storytelling with <br />
+          Design & <code>Code</code>
+        </p>
         <Button
           onClick={() =>
             store.changeTheme(
@@ -23,13 +30,9 @@ function HomePage() {
             )
           }
         >
-          {store.theme === THEME.LIGHT ? "Dark" : "Light"}
+          Theme: {store.theme === THEME.LIGHT ? "Dark" : "Light"}
         </Button>
       </main>
-
-      <footer>
-        <h3>selam footer</h3>
-      </footer>
     </div>
   );
 }
