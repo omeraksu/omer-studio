@@ -1,35 +1,30 @@
-# gatsby-absurd
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-An absurd Gatsby starter. The collection of illustrations, [absurd.design](https://absurd.design/) by [Diana Valeanu](https://twitter.com/diana_valeanu) is a very fascinating and beautiful project with some pretty thoughtful concepts. Experimentation on how that could be put together on a site ended up as this starter.
+## Getting Started
 
-[Live Demo](https://gatsby-absurd.netlify.com/)
+First, run the development server:
 
-## Installation
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-Install the dependencies:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### `yarn install`
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-Run the development server:
+## Learn More
 
-### `yarn dev`
+To learn more about Next.js, take a look at the following resources:
 
-Production build to `/public`:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### `yarn build`
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Cleanup cache (often fixes misc errors when run before `yarn dev`):
+## Deploy on Vercel
 
-### `yarn clean`
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Content
-
-Each of the sections in the site are placed in `src/sections`. Data is usually separated out into objects/arrays to be rendered in the component.
-
-## SEO
-
-The component `src/components/common/SEO.js` handles all meta data and SEO content, modify the `SEO_DATA` variable to add the data automatically. For application manifest data and favicon, modify the `gatsby-plugin-manifest` configuration in `gatsby-config.js`.
-
-## Styling
-
-This project uses [styled-components]() to handle styling: `src/styles/theme.js` defines the styling base and `src/styles/GlobalStyles.js` includes basic element styles along with the CSS Reset.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
