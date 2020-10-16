@@ -13,7 +13,7 @@ function HomePage() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>ProdArt | omer.studio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
