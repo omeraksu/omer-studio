@@ -27,3 +27,32 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+
+.examp div {
+  background: var(--c-text);
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50% - 150px / 2);
+  left: calc(50% - 150px / 2);
+}
+
+.examp .drag-area {
+  opacity: 0.2;
+  background: var(--c-text);
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+}
+
+/*
+@media (prefers-color-scheme: dark) {
+}
+
+@media (prefers-color-scheme: light) {
+}
+*/

@@ -25,7 +25,7 @@ class MyDocument extends Document {
           <meta name="twitter:description" content={SiteConfig.description} />
 
           {/* pwa */}
-          <link rel="manifest" href="/manifest.json" />
+          {/*<link rel="manifest" href="/manifest.json" />*/}
           <meta name="theme-color" content="#fff" />
           <meta name="application-name" content={SiteConfig.title} />
           <meta name="apple-mobile-web-app-title" content={SiteConfig.title} />
