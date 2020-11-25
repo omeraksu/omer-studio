@@ -27,6 +27,9 @@ function HomePage() {
           Design and <code>Code.</code>
         </h1>
         <h2>Coming Soon.</h2>
+        <motion.div>
+          
+        </motion.div>
         {/*<Button
           onClick={() =>
             store.changeTheme(
