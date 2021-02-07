@@ -1,10 +1,13 @@
 :root {
   --c-primary: black;
-  --c-text: white;
+  --c-text: #161616;
   --fade: 120ms;
+  --font-Family-Title: Inter;
+  --background-color: #f2f4f3;
 }
 
 .theme-dark {
   --c-primary: white;
-  --c-text: black;
+  --c-text: #f2f4f3;
+  --background-color: #161616;
 }

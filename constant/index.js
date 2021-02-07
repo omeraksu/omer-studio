@@ -6,10 +6,14 @@ export const THEME = {
 export const PAGES = {
   home: {
     path: "/",
-    name: "Home",
+    name: "home",
   },
   about: {
     path: "/about",
-    name: "About",
+    name: "about",
+  },
+  work: {
+    path: "/work",
+    name: "works",
   },
 };

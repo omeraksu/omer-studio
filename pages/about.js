@@ -1,11 +1,8 @@
 import React from "react";
+import Layout from "../components/layout";
 
 function About() {
-  return (
-    <div>
-      <h1>selam</h1>
-    </div>
-  );
+  return <Layout></Layout>;
 }
 
 export default About;

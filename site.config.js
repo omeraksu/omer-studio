@@ -7,5 +7,5 @@ module.exports = {
     email: "oaksu.me@gmail.com",
     name: "Ömer Aksu",
   },
-  lang: "en",
+  lang: "tr",
 };
