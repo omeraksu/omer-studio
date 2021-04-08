@@ -10,9 +10,15 @@ function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>
-        Storytelling through <br />
-        Design and <code>Code.</code>
+      <h1 className="heading">
+        I am telling <br />
+        stories by
+        <br />
+        design
+        <br />
+        and
+        <br />
+        <code>coding.</code>
       </h1>
     </Layout>
   );

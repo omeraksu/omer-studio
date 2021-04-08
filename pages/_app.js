@@ -4,7 +4,7 @@ import { StoreProvider } from "../store";
 
 import SiteConfig from "../site.config";
 
-import "../styles/app.css";
+import "../styles/global.css";
 
 function MyApp({ Component, pageProps }) {
   return (
