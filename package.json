@@ -28,12 +28,16 @@
     "@storybook/addons": "^5.3.19",
     "@storybook/react": "^5.3.19",
     "@svgr/cli": "^5.4.0",
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.5",
     "babel-loader": "^8.1.0",
     "css-loader": "^4.2.0",
+    "postcss": "^8.2.9",
     "postcss-custom-media": "^7.0.8",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.2.3",
     "prettier": "^2.0.5",
-    "style-loader": "^1.2.1"
+    "style-loader": "^1.2.1",
+    "tailwindcss": "^2.1.1"
   }
 }
