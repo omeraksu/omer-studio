@@ -8,13 +8,13 @@ import { THEME } from "../../constant";
 import StoreContext from "../../store";
 
 function Layout({ children }) {
-  const store = useContext(StoreContext);
+  // const store = useContext(StoreContext);
 
   return (
     <div className={styles.container}>
       <Header />
       <main>{children}</main>
-      <Button
+      {/*<Button
         onClick={() =>
           store.changeTheme(
             store.theme === THEME.LIGHT ? THEME.DARK : THEME.LIGHT
@@ -23,7 +23,7 @@ function Layout({ children }) {
       >
         {store.theme === THEME.LIGHT ? "Dark" : "Light"}
       </Button>
-      {/*<Footer />*/}
+      <Footer />*/}
     </div>
   );
 }

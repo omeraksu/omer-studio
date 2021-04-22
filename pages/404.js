@@ -7,15 +7,7 @@ import Button from "../components/button";
 function Error() {
   return (
     <Layout>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          flexDirection: "column",
-          height: "80vh",
-        }}
-      >
+      <div>
         <h1 className="error">404</h1>
         <p style={{ marginBottom: 20 }}>Üzgünüm. Aradığın sayfa bulunamadı.</p>
         <Link href="/">

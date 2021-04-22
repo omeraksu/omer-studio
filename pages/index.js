@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Layout from "../components/layout";
+import Button from "../components/button";
 
 function HomePage() {
   return (
@@ -10,16 +11,19 @@ function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="heading">
-        I am telling <br />
-        stories by
-        <br />
-        design
-        <br />
-        and
-        <br />
-        <code>coding.</code>
-      </h1>
+      <div className="flex flex-col space-y-4 justify-center mt-24 items-center mb-6">
+        <h1 className="heading">
+          We are telling <br />
+          stories by
+          <br />
+          design
+          <br />
+          and
+          <br />
+          <code>coding.</code>
+        </h1>
+        <Button disabled>Coming Soon.</Button>
+      </div>
     </Layout>
   );
 }

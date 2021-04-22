@@ -9,8 +9,6 @@ function Header({}) {
   return (
     <header className={styles.header}>
       <Logo />
-      <Nav />
-      <Button>Get in touch.</Button>
     </header>
   );
 }
