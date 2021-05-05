@@ -13,14 +13,14 @@ function HomePage() {
 
       <div className="flex flex-col space-y-4 justify-center mt-24 items-center mb-6">
         <h1 className="heading">
-          We are telling <br />
+          I'm telling <br />
           stories by
           <br />
           design
           <br />
           and
           <br />
-          <code>coding.</code>
+          <code>coding</code>.
         </h1>
         <Button disabled>Coming Soon.</Button>
       </div>
